@@ -1,0 +1,91 @@
+*{
+	font-family: initial, sans-serif;
+}
+.navbar-brand{
+	letter-spacing: 2px;
+}
+.navbar-collapse{
+	justify-content: flex-end;
+}
+.header{
+	background: url(https://img.freepik.com/premium-photo/top-view-work-from-home-concept-with-keyboard-calculator-notebook-white-background-graphic-designer-creative-designer-concept_160097-215.jpg?w=2000);
+	background-attachment: fixed;
+	background-size: cover;
+}
+.overlay{
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	right: 0;
+	background: rgba(69, 69, 69, 0.35);
+}
+.headerContent{
+	position: absolute;
+	color: white;
+	top: 35%;
+	min-width: 100%;
+}
+.headerContent h1{
+	letter-spacing: 15px;
+}
+.headerContent p{
+	font-size: 1.5rem;
+
+}
+h1{
+	letter-spacing: 1px;
+
+}
+.about, .device, .carousel, .product, .team, .tradeIn, .contact{
+	padding: 4em;
+}
+.about h1, .device h1, .carousel h1, .product h1, .product h1, .team h1{
+	padding-bottom: 1.5em;
+}
+.aboutPadding{
+	padding: 2em;
+}
+h2{
+	margin-top: 10px;
+	letter-spacing: 3px;
+}
+.rem{
+	word-spacing: 4px;
+}
+.device, .contact{
+	background: #343a40;
+	color: white;
+}
+.device div[class|="col"]{
+	margin: 10px;
+}
+#product{
+	text-align: center;
+}
+.apple h1{
+	color: white;
+	text-align: center;
+
+}
+.apple{
+	background: #343a40;
+
+}
+.device h1{
+	text-align: center;
+}
+.device img{
+	border: 3px solid white;
+	margin: 10px;
+}	
+.team img{
+	border: 5px solid black;
+}
+.personDescription{
+	background: #343a40;
+	color: white;
+}
+.personDescription span{
+	color: #C0C0C0;
+}
